@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-* main = entry point
+* main - that prints the alphabet in lowercase
 *
-* Description: print all alphabet letters
-
-* Return: Always 0 (Success) 
+* Return: Always 0 (Success)
 */
 
 int main(void)
@@ -18,5 +16,5 @@ int main(void)
 		++ch;
 	}
 	putchar('\n');
-
 	return (0);
+}
